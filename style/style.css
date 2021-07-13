@@ -208,3 +208,37 @@ body {
 	font-weight: 400;
 	color: #6C6C6C;
 }
+
+/* awards */
+.main-award {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.award {
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(rgb(80, 81, 156), rgba(26, 28, 136, 0.77)), url(../img/bg/award-bg.jpg);
+	background-position: center center;
+	background-attachment: fixed;
+	padding: 50px 0px;
+}
+
+.award-item {
+	text-align: center;
+}
+
+.award-item h1 {
+	color: #fff;
+	font-size: 58px;
+	margin: 10px 0px;
+	padding: 0;
+}
+
+.award-item h3 {
+	color: #fff;
+	font-size: 24px;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+}
