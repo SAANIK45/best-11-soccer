@@ -1,0 +1,112 @@
+/*
+  Template name : best-11-soccer
+  Author: Md. Samiul Ahmed
+  Support: samiulahmedanik@gmail.com
+*/
+
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* reusable */
+
+.container {
+	width: 1140px;
+}
+
+
+/* header */
+.header {
+	display: flex;
+	justify-content: center;
+	background: #2D25A0;
+	padding: 10px 0px;
+}
+
+.main-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo img {
+	width: 50px;
+	margin-top: 5px;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+}
+
+.menu nav ul li {
+	display: inline-block;
+	padding: 0px 24px;
+}
+
+.menu nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.login-btn {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 500;
+	background: #E02C6D;
+	padding: 10px 35px;
+}
+
+/* hero */
+
+.main-hero {
+	display: flex;
+	margin: 100px 0px;
+}
+
+.right-hero img {
+	width: 556px;
+	height: 438px;
+}
+
+.hero {
+	display: flex;
+	justify-content: center;
+	background: #2D25A0;
+}
+
+.left-hero h1 {
+	font-size: 64px;
+	color: #fff;
+	font-weight: 700;
+	padding-right: 55px;
+}
+
+.hero-btn {
+	background: #E02C6D;
+	border: none;
+	color: #fff;
+	font-weight: 700;
+	font-size: 16px;
+	padding: 20px 35px;
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+
+.hero-btn i {
+	padding-left: 10px;
+}
