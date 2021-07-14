@@ -242,3 +242,46 @@ body {
 	text-transform: capitalize;
 	letter-spacing: 2px;
 }
+
+/* gallery */
+
+.gallery {
+	display: flex;
+	justify-content: center;
+}
+
+.main-gallery {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 15px;
+}
+
+.gallery-item img {
+	width: 100%;
+}
+
+.gallery-item {
+	position: relative;
+}
+
+.img-content:hover {
+	opacity: 1;
+}
+
+.img-content {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	transition: all.3s;
+	cursor: pointer;
+}
+
+.img-content i {
+	font-size: 75px;
+	color: #fff;
+	background: #1b3186ad;
+	padding: 60px;
+	border-radius: 50%;
+}
