@@ -3,15 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>best-11-soccer</title>
+        <title> best-11-soccer</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-        <!-- font-awesome -->
-        <script src="https://kit.fontawesome.com/affbab298a.js" crossorigin="anonymous"></script>
 		<!-- CSS here -->
         <link rel="stylesheet" href="style/style.css">
+        <!-- responsive-css -->
+        <link rel="stylesheet" href="style/responsive.css">
       
     </head>
     <body>
@@ -27,15 +25,29 @@
                         </div>
                         <div class="menu">
                             <nav>
-                                <ul>
-                                    <li><a href="">home</a></li>
-                                    <li><a href="">clubs</a></li>
-                                    <li><a href="">world cup 2023</a></li>
-                                    <li><a href="">upcoming matches</a></li>
-                                    <li><a href="">contact</a></li>
+                                <ul class="main-nav">
+                                    <li><a href="index.html">home</a></li>
+                                    <li><a href="#players">players</a></li>
+                                    <li><a href="#highlight">highlight</a></li>
+                                    <li><a href="#award">award</a></li>
+                                    <li><a href="#gallery">gallery</a></li>
                                 </ul>
+                                <div class="mobile-menu">
+                                    <span onclick="openNav()">&#9776</span>
+                                    <div id="myNav" class="overlay ">
+                                        <a href="javascript:void()" onclick="closeNav()" class="close-btn">&times;</a>
+                                        <div class="overlay-content">
+                                            <a onclick="closeNav()" href="index.html">home</a>
+                                            <a onclick="closeNav()" href="#highlight">highlight</a>
+                                            <a onclick="closeNav()" href="#award">award</a>
+                                            <a onclick="closeNav()" href="#skill">skill</a>
+                                            <a onclick="closeNav()" href="#gallery">gallery</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </nav>
-                            <a class="login-btn" href="#">login  </a>
+
+                            <a class="login-btn" href="#">login</a>
                         </div>
                     </div>
                 </div>
@@ -61,8 +73,9 @@
                 </div>
             </section>
             <!-- hero-end -->
+
             <!-- players-start -->
-            <section class="players">
+            <section class="players" id="players">
                 <div class="container">
                     <div class="section-title">
                         <h2>top players</h2>
@@ -82,7 +95,7 @@
                                 <img src="img/players/player-2.png" alt="">
                             </div>
                             <div class="player-info">
-                                <h3>Neymar jr</h3>
+                                <h3>Lionel Messi</h3>
                                 <p>A football player or footballer is a sportsperson who plays one of the different types of football.</p>
                             </div>
                         </div>
@@ -91,7 +104,7 @@
                                 <img src="img/players/player-3.png" alt="">
                             </div>
                             <div class="player-info">
-                                <h3>Neymar jr</h3>
+                                <h3>Cristiano Ronaldo</h3>
                                 <p>A football player or footballer is a sportsperson who plays one of the different types of football.</p>
                             </div>
                         </div>
@@ -100,7 +113,7 @@
                                 <img src="img/players/player-4.png" alt="">
                             </div>
                             <div class="player-info">
-                                <h3>Neymar jr</h3>
+                                <h3>Paulo Dybala</h3>
                                 <p>A football player or footballer is a sportsperson who plays one of the different types of football.</p>
                             </div>
                         </div>
@@ -109,7 +122,7 @@
                                 <img src="img/players/player-5.png" alt="">
                             </div>
                             <div class="player-info">
-                                <h3>Neymar jr</h3>
+                                <h3>Mesut Ozil </h3>
                                 <p>A football player or footballer is a sportsperson who plays one of the different types of football.</p>
                             </div>
                         </div>
@@ -118,7 +131,7 @@
                                 <img src="img/players/player-6.png" alt="">
                             </div>
                             <div class="player-info">
-                                <h3>Neymar jr</h3>
+                                <h3>Mauro Icardi </h3>
                                 <p>A football player or footballer is a sportsperson who plays one of the different types of football.</p>
                             </div>
                         </div>
@@ -127,7 +140,7 @@
                                 <img src="img/players/player-7.png" alt="">
                             </div>
                             <div class="player-info">
-                                <h3>Neymar jr</h3>
+                                <h3>Di Maria</h3>
                                 <p>A football player or footballer is a sportsperson who plays one of the different types of football.</p>
                             </div>
                         </div>
@@ -136,7 +149,7 @@
                                 <img src="img/players/player-8.png" alt="">
                             </div>
                             <div class="player-info">
-                                <h3>Neymar jr</h3>
+                                <h3>Kylian Mbappé</h3>
                                 <p>A football player or footballer is a sportsperson who plays one of the different types of football.</p>
                             </div>
                         </div>
@@ -145,7 +158,7 @@
                                 <img src="img/players/player-9.png" alt="">
                             </div>
                             <div class="player-info">
-                                <h3>Neymar jr</h3>
+                                <h3>Mohamed Salah</h3>
                                 <p>A football player or footballer is a sportsperson who plays one of the different types of football.</p>
                             </div>
                         </div>
@@ -154,7 +167,7 @@
                                 <img src="img/players/player-10.png" alt="">
                             </div>
                             <div class="player-info">
-                                <h3>Neymar jr</h3>
+                                <h3>Harry Kane</h3>
                                 <p>A football player or footballer is a sportsperson who plays one of the different types of football.</p>
                             </div>
                         </div>
@@ -163,7 +176,7 @@
                                 <img src="img/players/player-11.png" alt="">
                             </div>
                             <div class="player-info">
-                                <h3>Neymar jr</h3>
+                                <h3>Kevin De Bruyne</h3>
                                 <p>A football player or footballer is a sportsperson who plays one of the different types of football.</p>
                             </div>
                         </div>
@@ -172,7 +185,7 @@
                                 <img src="img/players/player-12.png" alt="">
                             </div>
                             <div class="player-info">
-                                <h3>Neymar jr</h3>
+                                <h3>Philippe Coutinho</h3>
                                 <p>A football player or footballer is a sportsperson who plays one of the different types of football.</p>
                             </div>
                         </div>
@@ -183,7 +196,7 @@
             <!-- players-end -->
 
             <!-- highlight-start -->
-            <section class="highlight">
+            <section class="highlight" id="highlight">
                 <div class="container">
                     <div class="main-highlight">
                         <div class="left-content">
@@ -194,6 +207,11 @@
                         </div>
                         <div class="right-content">
                             <img src="img/match.png" alt="">
+                            <div class="highlight-icon">
+                                <div class="loader">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -201,7 +219,7 @@
             <!-- highlight-end -->
 
             <!-- award-start -->
-            <section class="award">
+            <section class="award" id="award">
                 <div class="container">
                     <div class="main-award">
                         <div class="award-item">
@@ -226,7 +244,7 @@
             <!-- award-end -->
 
             <!-- gallery-start -->
-            <section class="gallery">
+            <section class="gallery" id="gallery">
                 <div class="container">
                     <div class="section-title">
                         <h2>Gallery</h2>
@@ -274,6 +292,7 @@
             </section>
             <!-- gallery-end -->
         </main>
+
         <!-- footer-start -->
         <footer>
             <section class="footer">
@@ -297,6 +316,21 @@
         </footer>
         <!-- footer-end -->
         
-      
+        <script>
+                    //mobile - Menu 
+
+                    function openNav() {
+                        document.getElementById("myNav").style.width = "100%";
+                    }
+
+                    function closeNav() {
+                        document.getElementById("myNav").style.width = "0%";
+                    }
+
+                    
+
+        </script>
+        <!-- font-awesome -->
+        <script src="https://kit.fontawesome.com/affbab298a.js" crossorigin="anonymous"></script>
     </body>
 </html>
